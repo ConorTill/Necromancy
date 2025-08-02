@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Factory_UI.uss?fileID=7433441132597879392&amp;guid=c846965b8f5ffad439871e34607c3d88&amp;type=3#Factory_UI" />
+    <ui:VisualElement name="Panel" class="panel" style="scale: 1 1;">
+        <ui:ListView name="InputItemsList" class="items-list" />
+        <ui:ListView name="OutputItemsList" class="items-list" />
+        <ProgressBar high-value="1" progress="-0.03" name="ProgressBar" class="progress-bar" />
+        <ui:VisualElement name="OutputItemsPanel" class="items-panel" style="flex-grow: 1; display: none;" />
+        <ui:VisualElement name="ProgressBarPanel" class="progress-bar-panel" style="flex-grow: 1; display: none;" />
+        <ui:VisualElement name="InputItemsPanel" class="items-panel" style="display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

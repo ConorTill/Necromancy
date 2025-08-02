@@ -1,0 +1,59 @@
+.panel {
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    flex-grow: 1;
+    border-left-color: rgb(38, 28, 28);
+    border-right-color: rgb(38, 28, 28);
+    border-top-color: rgb(38, 28, 28);
+    border-bottom-color: rgb(38, 28, 28);
+    border-top-width: 24px;
+    border-right-width: 24px;
+    border-bottom-width: 24px;
+    border-left-width: 24px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    background-color: rgb(84, 61, 61);
+}
+
+.items-panel {
+    height: 40%;
+    padding-top: 18px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    border-left-color: rgb(38, 28, 28);
+    border-right-color: rgb(38, 28, 28);
+    border-top-color: rgb(38, 28, 28);
+    border-bottom-color: rgb(38, 28, 28);
+    border-top-width: 18px;
+    border-right-width: 18px;
+    border-bottom-width: 18px;
+    border-left-width: 18px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    margin-bottom: 16px;
+}
+
+.progress-bar-panel {
+    height: 20%;
+    padding-top: 18px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+}
+
+.items-list {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.progress-bar {
+    flex-grow: 1;
+}
