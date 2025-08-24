@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 539562d10682cb64db943dbb16ea6bdc, type: 3}
   m_Name: Skull
   m_EditorClassIdentifier: 
-  Name: Skull
-  Description: It holds your brain in.
-  MaxStackQuantity: 99
-  Icon: {fileID: 21300000, guid: d76c2ea87b177c847a26d05d3daa38a3, type: 3}
+  description: It holds your brain in.
+  maxStackQuantity: 99
+  icon: {fileID: 21300000, guid: d76c2ea87b177c847a26d05d3daa38a3, type: 3}

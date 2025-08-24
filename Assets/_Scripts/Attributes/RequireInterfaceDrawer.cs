@@ -1,4 +1,5 @@
 #if UNITY_EDITOR
+using ScriptableObjects;
 using UnityEditor;
 using UnityEngine;
 
@@ -11,7 +12,7 @@ public class RequireInterfaceDrawer : PropertyDrawer
         EditorGUI.BeginProperty(position, label, property);
 
         var oldObj = property.objectReferenceValue;
-        var newObj = EditorGUI.ObjectField(position, label, oldObj, typeof(Item), false);
+        var newObj = EditorGUI.ObjectField(position, label, oldObj, typeof(ItemDetails), false);
 
         if (newObj != null && !attr.RequiredType.IsAssignableFrom(newObj.GetType()))
         {

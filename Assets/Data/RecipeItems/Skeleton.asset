@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 539562d10682cb64db943dbb16ea6bdc, type: 3}
   m_Name: Skeleton
   m_EditorClassIdentifier: 
-  Name: Skeleton
-  Description: A bunch of bones.
-  MaxStackQuantity: 99
-  Icon: {fileID: 21300000, guid: 95f24c41e957b8d42a1fa9105b3ba723, type: 3}
+  description: A bunch of bones.
+  maxStackQuantity: 99
+  icon: {fileID: 21300000, guid: 95f24c41e957b8d42a1fa9105b3ba723, type: 3}

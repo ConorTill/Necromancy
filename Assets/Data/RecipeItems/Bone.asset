@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 539562d10682cb64db943dbb16ea6bdc, type: 3}
   m_Name: Bone
   m_EditorClassIdentifier: 
-  Name: Bone
-  Description: It holds your skull up.
-  MaxStackQuantity: 99
-  Icon: {fileID: 21300000, guid: 0543c9015d4a85d44b99874e93e9693f, type: 3}
+  description: It holds your skull up.
+  maxStackQuantity: 99
+  icon: {fileID: 21300000, guid: 0543c9015d4a85d44b99874e93e9693f, type: 3}

@@ -1,1 +1,4 @@
-public interface IPlaceable { }
+namespace Components
+{
+    public interface IPlaceable { }
+}

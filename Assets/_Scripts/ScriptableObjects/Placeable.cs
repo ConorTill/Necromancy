@@ -1,4 +1,8 @@
+using Components;
 using UnityEngine;
 
-[CreateAssetMenu]
-public class Placeable : Item, IPlaceable { }
+namespace ScriptableObjects
+{
+    [CreateAssetMenu]
+    public class Placeable : ItemDetails, IPlaceable { }
+}

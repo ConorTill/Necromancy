@@ -1,13 +1,17 @@
 using System.Collections.Generic;
+using Data.Inventory;
 using UnityEngine;
 
-[CreateAssetMenu]
-public class Recipe : ScriptableObject
+namespace ScriptableObjects
 {
-    public List<RecipeComponent> InputItems;
-    public List<RecipeComponent> OutputItems;
-    public float BaseSpeed;
+    [CreateAssetMenu]
+    public class Recipe : ScriptableObject
+    {
+        public List<Item> inputItems;
+        public List<Item> outputItems;
+        public float timeToProcess;
 
-    public int RequiredInputSlotsCount => InputItems.Count;
-    public int RequiredOutputSlotsCount => OutputItems.Count;
+        public int RequiredInputSlotsCount => inputItems.Count;
+        public int RequiredOutputSlotsCount => outputItems.Count;
+    }
 }
